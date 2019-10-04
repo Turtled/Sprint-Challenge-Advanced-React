@@ -14,6 +14,6 @@ it('renders correctly. truthy, in document, visible', () => {
   expect(element).toBeTruthy();
   expect(element).toBeInTheDocument();
   expect(element).toBeVisible();
-
+//comment
   wrapper.debug();
 });
