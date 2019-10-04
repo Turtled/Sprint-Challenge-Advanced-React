@@ -5,6 +5,7 @@ import PlayerList from './components/PlayerList';
 
 afterEach(rtl.cleanup);
 
+//testing
 it('renders correctly. truthy, in document, visible', () => {
   const wrapper = rtl.render(
     <PlayerList />
